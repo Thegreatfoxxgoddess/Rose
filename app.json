@@ -1,13 +1,16 @@
 
 {
-  "name": "Miss Rose",
+  "name": "Paimon",
   "logo": "https://telegra.ph/file/48522f7be29b993a19e60.jpg",
-  "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
+  "description": "cutest group manager . Modular Telegram group management bot!",
   "keywords": [
     "telegram",
     "best",
     "group",
     "manager",
+    "cute",
+    "cutest",
+    "paimon",
     "3"
   ],
   "repository": "hhttps://github.com/Thegreatfoxxgoddess/Rose",
@@ -27,10 +30,6 @@
     "OWNER_USERNAME": {
       "description": "Your username",
       "value": ""
-    },
-    "WEBHOOK": {
-      "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
-      "value": "ANYTHING"
     },
     "URL": {
       "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
@@ -79,7 +78,6 @@
   },
   "addons": [
     {
-      "plan": "heroku-postgresql",
       "options": {
         "version": "10"
       }
